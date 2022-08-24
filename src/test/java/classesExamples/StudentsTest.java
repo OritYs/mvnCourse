@@ -13,10 +13,10 @@ public class StudentsTest {
     public void testIsSkyboxWorker(){
         ArrayList<Student> students = new ArrayList<Student>();
 
-        students.add(new Student("Lior", "Azroel", "lior.azroel@skyboxsecurity.com"));
+        students.add(new Student("test", "test", "test.test@blabla.com"));
 
         for (Student student : students) {
-            assertTrue(student.getEmail().contains("skyboxsecurity"));
+            assertTrue(student.getEmail().contains("blabla"));
         }
     }
 }
